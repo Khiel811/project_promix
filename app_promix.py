@@ -216,4 +216,4 @@ else:
         copy_box("Copy Semua Data Penjualan",
                  "\n".join(f"{r.Menu}\t{r.Channel}\t{r.Qty}\t{r.Value}" for _,r in sales.iterrows()))
 
-st.markdown("""<div class="footer-badge">Developed by PROMIX Reader<br>PDF → Sales → Usage → Copy-Paste</div>""", unsafe_allow_html=True)
+st.markdown("""<div class="footer-badge">Developed by KHAIRIL<br>PDF → Sales → Usage → Copy-Paste</div>""", unsafe_allow_html=True)
